@@ -12,4 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
+//= require turbolinks
+//= require messenger
 //= require_tree .
+
+Messenger.options = {   extraClasses: 'messenger-fixed messenger-on-top messenger-on-right', theme: 'air'}

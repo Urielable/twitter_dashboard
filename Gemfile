@@ -18,6 +18,16 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'bootstrap-sass', '2.3.1.0'
+  gem 'turbolinks', '1.1.0'
+  gem 'modernizr', '2.6.2'
+  gem 'haml-rails', '0.4'
+  gem 'messengerjs-rails', '1.3.0'
+end
+
+group :development do
+  gem 'erb2haml', '0.1.4'
+  gem 'html2haml', '1.0.1'
 end
 
 gem 'jquery-rails'
